@@ -35,7 +35,7 @@ export default async function Publications() {
 
   return (
     <section className="content-container">
-      <div className="flex flex-col md:flex-row gap-3">
+      <div className="flex flex-col md:flex-row gap-8">
         <div className={containerStyle}>
           <Book className={iconStyle} />
           <h2 className={titleStyle}>

@@ -36,7 +36,7 @@ export default async function Achievements() {
 
   return (
     <section className="content-container">
-      <div className="flex flex-col md:flex-row gap-3">
+      <div className="flex flex-col md:flex-row gap-6">
         <div className={containerStyle}>
           <Trophy className={iconStyle} />
           <h2 className={titleStyle}>
@@ -88,8 +88,8 @@ export default async function Achievements() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="-left-12" />
-              <CarouselNext className="-right-12" />
+              <CarouselPrevious className="-left-10" />
+              <CarouselNext className="-right-10" />
             </Carousel>
           ) : (
             <div className="bg-white rounded-3xl p-8 shadow-lg">
