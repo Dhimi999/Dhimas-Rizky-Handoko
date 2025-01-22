@@ -1,17 +1,19 @@
 export const containerStyle = `
   flex flex-col items-center justify-center
-  w-1/4 bg-white rounded-3xl p-8 shadow-lg
+  bg-white rounded-3xl p-6 shadow-lg
+  w-full md:w-[200px] md:min-h-[260px] sm:min-h-[200px] xl:min-h-[400px]
 `
 
 export const titleStyle = `
-  font-['Times_New_Roman'] text-2xl text-center
+  font-['Times_New_Roman'] text-xl md:text-2xl text-center
+  mt-4
 `
 
 export const iconStyle = `
-  w-12 h-12 mb-4
+  w-10 h-10
 `
 
 export const carouselContainerStyle = `
-  w-3/4 p-8
+  p-4 md:p-6 flex-1
 `
 

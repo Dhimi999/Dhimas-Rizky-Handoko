@@ -35,8 +35,8 @@ export default async function Achievements() {
   const achievements = await getAchievements()
 
   return (
-    <section className="content-container">
-      <div className="flex flex-col md:flex-row gap-6">
+    <section className="content-container px-4 sm:px-6">
+      <div className="flex flex-col md:flex-row gap-6 items-start">
         <div className={containerStyle}>
           <Trophy className={iconStyle} />
           <h2 className={titleStyle}>
@@ -44,7 +44,7 @@ export default async function Achievements() {
           </h2>
         </div>
 
-        <div className={`${carouselContainerStyle} w-full md:w-3/4`}>
+        <div className={`${carouselContainerStyle} relative w-full md:w-3/4 overflow-visible`}>
           {achievements.length > 0 ? (
             <Carousel
               opts={{
@@ -53,10 +53,10 @@ export default async function Achievements() {
               }}
               className="w-full"
             >
-              <CarouselContent className="-ml-4">
+              <CarouselContent className="-ml-2 md:-ml-4">
                 {achievements.map((achievement) => (
-                  <CarouselItem key={achievement.id} className="pl-4 md:basis-1/3">
-                    <div className="bg-white rounded-lg shadow-lg overflow-hidden h-[300px] flex flex-col">
+                  <CarouselItem key={achievement.id} className="pl-2 md:pl-4 basis-full sm:basis-1/2 md:basis-1/3">
+                    <div className="bg-white rounded-2xl shadow-lg overflow-hidden md:h-[250px] xl:h-[350px] flex flex-col">
                       <div className="relative aspect-video">
                         <Image
                           src={achievement.image_cover || "/placeholder.svg"}
@@ -72,15 +72,18 @@ export default async function Achievements() {
                       </div>
                       <div className="p-4 flex-grow flex flex-col justify-between">
                         <div>
-                          <div className="flex items-start justify-start space-x-2">
-                            <span className="text-xs font-medium">{achievement.type}</span>
-                            <span className="text-xs text-gray-500">{achievement.scope}</span>
+                        
+                          <div className="flex flex-col items-start gap-1">
+                            <div className="flex items-center justify-between gap-2">
+                              <span className="text-xs font-medium">{achievement.type}</span>
+                              <span className="text-xs text-gray-500">{achievement.scope}</span>
+                            </div>
+                            <h3 className="font-medium text-sm line-clamp-2 text-center w-full">{achievement.title}</h3>
                           </div>
-                          <h3 className="font-medium text-sm line-clamp-2 mt-2 text-center">{achievement.title}</h3>
                         </div>
-                        <div className="text-xs text-gray-500 space-y-0.5 mt-2">
-                          <p>{achievement.organization}</p>
-                          <p>{achievement.place}</p>
+                        <div className="text-xs text-gray-500 space-y-0.5">
+                          <p className="truncate">{achievement.organization}</p>
+                          <p className="truncate">{achievement.place}</p>
                           <p>{achievement.year}</p>
                         </div>
                       </div>
@@ -88,8 +91,10 @@ export default async function Achievements() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="-left-10" />
-              <CarouselNext className="-right-10" />
+              <div className="hidden md:block">
+                <CarouselPrevious className="absolute -left-10 hover:bg-white/90 cursor-pointer" />
+                <CarouselNext className="absolute -right-10 hover:bg-white/90 cursor-pointer" />
+              </div>
             </Carousel>
           ) : (
             <div className="bg-white rounded-3xl p-8 shadow-lg">

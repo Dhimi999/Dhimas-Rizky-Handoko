@@ -34,16 +34,16 @@ export default async function Publications() {
   const publications = await getPublications()
 
   return (
-    <section className="content-container">
-      <div className="flex flex-col md:flex-row gap-8">
+    <section className="content-container px-4 sm:px-6">
+      <div className="flex flex-col md:flex-row gap-6 items-start">
         <div className={containerStyle}>
           <Book className={iconStyle} />
           <h2 className={titleStyle}>
-            Karya <span className="font-bold">Publikasi</span>
+            <span className="font-bold">Publikasi</span>
           </h2>
         </div>
 
-        <div className={`${carouselContainerStyle} w-full md:w-3/4`}>
+        <div className={`${carouselContainerStyle} relative w-full md:w-3/4 overflow-visible`}>
           {publications.length > 0 ? (
             <Carousel
               opts={{
@@ -52,23 +52,22 @@ export default async function Publications() {
               }}
               className="w-full"
             >
-              <CarouselContent className="-ml-4">
+              <CarouselContent className="-ml-2 md:-ml-4">
                 {publications.map((pub) => (
-                  <CarouselItem key={pub.id} className="pl-4 md:basis-1/3">
+                  <CarouselItem key={pub.id} className="pl-2 md:pl-4 basis-full sm:basis-1/2 md:basis-1/3">
                     <div className="relative aspect-[3/4] group">
                       <Image
                         src={pub.image || "/placeholder.svg"}
                         alt={pub.title}
                         fill
-                        className="object-cover rounded-lg transition-all duration-300 group-hover:brightness-50"
+                        className="object-cover rounded-2xl transition-all duration-300 group-hover:brightness-50"
                       />
                       <div className="absolute top-4 left-4">
                         <div className="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-medium">
                           {pub.type}
                         </div>
                       </div>
-                      {/* Hover Content */}
-                      <div className="absolute inset-0 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end">
+                      <div className="absolute inset-0 p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end rounded-2xl bg-black/40">
                         <h3 className="font-bold text-sm mb-1 leading-tight">{pub.title}</h3>
                         <p className="text-xs">{pub.editorial}</p>
                         <p className="text-xs">{pub.launch}</p>
@@ -79,8 +78,10 @@ export default async function Publications() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="-left-12" />
-              <CarouselNext className="-right-12" />
+              <div className="hidden md:block">
+                <CarouselPrevious className="absolute -left-10 hover:bg-white/90 cursor-pointer" />
+                <CarouselNext className="absolute -right-10 hover:bg-white/90 cursor-pointer" />
+              </div>
             </Carousel>
           ) : (
             <div className="bg-white rounded-3xl p-8 shadow-lg">
