@@ -3,16 +3,22 @@
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import { Mail, Instagram, BookOpen, Linkedin, Twitter } from "lucide-react"
 import Link from "next/link"
+import { cn } from "@/lib/utils"
 
-export default function SocialMediaDialog() {
+export default function SocialMediaDialog({ className }: { className?: string }) {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <button className="bg-yellow-400 text-black px-4 py-1 rounded-full text-sm font-medium hover:bg-yellow-500 transition-colors">
+        <button
+          className={cn(
+            "bg-yellow-400 text-black px-3 xs:px-4 sm:pr-4 py-1 rounded-full text-xs xs:text-sm font-medium hover:bg-yellow-500 transition-colors",
+            className,
+          )}
+        >
           Let&apos;s Connect!
         </button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="bg-white sm:max-w-md rounded-lg shadow-lg">
         <div className="grid gap-4">
           <h2 className="text-lg font-semibold">Let&apos;s Connect!</h2>
           <div className="grid gap-2">

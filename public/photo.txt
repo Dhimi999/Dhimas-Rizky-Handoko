@@ -1,0 +1,6 @@
+1;2024:06:12;Budaya;https://cdn0-production-images-kly.akamaized.net/o0vNOyXKIcP2qDK-arwY3a7KZtE=/1200x675/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2382180/original/051426900_1539357510-Budaya-Bali-di-IMF6.jpg;Jember
+2;2024:07:22;Kemenangan;https://www.unila.ac.id/storage/2024/10/FOTO-1-Heyrica-Karendewe-1024x882.png;Unila
+3;2024:08:02;Lumpur Lapindo;https://img.inews.co.id/media/450/files/inews_new/2022/01/23/logam_tanah_lapindo.jpg;Surabaya Kota
+4;2024:10:01;Poster Kebersihan;https://uptdsmpn3bangkalan.sch.id/wp-content/uploads/2024/07/poster-kebersihan-lingkungan-4.webp;Jakarta Pusat
+5;2025:01:17;Website Kesehatan;https://lh3.googleusercontent.com/XkRl8Eci48w7xQFLULPN7-0v92oUhz85hNROLK6PqJrssZ6I4bEBylKSH8Jx3OGCk_3AvwMf2OUzI4S9A5evAKZyE-2Rh8W4ApotM3gYFMXIqRc-08dqeR0OopAK0ZD6rTBbDkxEqbxrf_iEdcnrfmi8zOej8BvDuUnYBu6ypvFBFIngHkRSTcUFryZccA;Digital Produk
+

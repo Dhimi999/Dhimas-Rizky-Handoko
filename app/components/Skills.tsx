@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { Brain, Heart, Code, Laptop, Book, Users } from "lucide-react"
+import { Brain, Heart, Code, Laptop, Book, Users, Sparkles } from "lucide-react"
 
 const skills = [
   {
@@ -46,7 +46,8 @@ export default function Skills() {
   return (
     <section className="content-container px-4 sm:px-6">
       <div className="bg-white rounded-3xl p-6 md:p-12 shadow-lg">
-        <h2 className="font-['Times_New_Roman'] text-xl md:text-2xl mb-6 md:mb-8">
+        <h2 className="font-['Times_New_Roman'] text-xl md:text-2xl mb-6 md:mb-8 flex items-center gap-2">
+          <Sparkles className="w-6 h-6" />
           My <span className="font-bold">Skills</span>
         </h2>
 
