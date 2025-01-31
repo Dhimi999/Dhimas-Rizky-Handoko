@@ -1,6 +1,6 @@
-1;2024:06:12;Budaya;https://cdn0-production-images-kly.akamaized.net/o0vNOyXKIcP2qDK-arwY3a7KZtE=/1200x675/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2382180/original/051426900_1539357510-Budaya-Bali-di-IMF6.jpg;Jember
-2;2024:07:22;Kemenangan;https://www.unila.ac.id/storage/2024/10/FOTO-1-Heyrica-Karendewe-1024x882.png;Unila
-3;2024:08:02;Lumpur Lapindo;https://img.inews.co.id/media/450/files/inews_new/2022/01/23/logam_tanah_lapindo.jpg;Surabaya Kota
-4;2024:10:01;Poster Kebersihan;https://uptdsmpn3bangkalan.sch.id/wp-content/uploads/2024/07/poster-kebersihan-lingkungan-4.webp;Jakarta Pusat
-5;2025:01:17;Website Kesehatan;https://lh3.googleusercontent.com/XkRl8Eci48w7xQFLULPN7-0v92oUhz85hNROLK6PqJrssZ6I4bEBylKSH8Jx3OGCk_3AvwMf2OUzI4S9A5evAKZyE-2Rh8W4ApotM3gYFMXIqRc-08dqeR0OopAK0ZD6rTBbDkxEqbxrf_iEdcnrfmi8zOej8BvDuUnYBu6ypvFBFIngHkRSTcUFryZccA;Digital Produk
-
+1;2022:10:09;Terapi Tanaman;https://i.pinimg.com/736x/c1/aa/da/c1aadae18500954a18b5a011f6679419.jpg;BSD FMIPA UNEJ
+2;2023:10:07;YUK! Atasi LUKA dengan SIAGA;https://i.pinimg.com/236x/ba/2c/b6/ba2cb67b1007ed5f03fc55bfc4c8d93d.jpg;JDFest FKG UNEJ
+3;2025:01:31;Website Kesehatan Mental;https://i.pinimg.com/736x/18/22/dd/1822dd8232297c9d113a3ac96eb4ef9d.jpg;MMHIRC UB
+4;2023:07:07;Video Animasi IpTT;https://i.pinimg.com/736x/df/ae/07/dfae07d47cc2a2ae0cd9b7fccd4f35a8.jpg;Jember
+5;2023:05:03;Video Animasi MITSU - Edukasi Kebencanaan;https://i.pinimg.com/736x/bb/69/1a/bb691af96e096ccd0871c94d4faeb903.jpg;Jember
+6;2022:09:16;Video Animasi TIMO - Penerapan PHBS di Sekolah;blob:https://id.pinterest.com/06d6fd9c-ed07-4b8c-8edb-6e0f4e05673c;Jember
