@@ -1,6 +1,14 @@
 1;2022:10:09;Terapi Tanaman;https://i.pinimg.com/736x/c1/aa/da/c1aadae18500954a18b5a011f6679419.jpg;BSD FMIPA UNEJ
-2;2023:10:07;YUK! Atasi LUKA dengan SIAGA;https://i.pinimg.com/236x/ba/2c/b6/ba2cb67b1007ed5f03fc55bfc4c8d93d.jpg;JDFest FKG UNEJ
-3;2025:01:31;Website Kesehatan Mental;https://i.pinimg.com/736x/18/22/dd/1822dd8232297c9d113a3ac96eb4ef9d.jpg;MMHIRC UB
-4;2023:07:07;Video Animasi IpTT;https://i.pinimg.com/736x/df/ae/07/dfae07d47cc2a2ae0cd9b7fccd4f35a8.jpg;Jember
-5;2023:05:03;Video Animasi MITSU - Edukasi Kebencanaan;https://i.pinimg.com/736x/bb/69/1a/bb691af96e096ccd0871c94d4faeb903.jpg;Jember
-6;2022:09:16;Video Animasi TIMO - Penerapan PHBS di Sekolah;blob:https://id.pinterest.com/06d6fd9c-ed07-4b8c-8edb-6e0f4e05673c;Jember
+2;2023:10:07;YUK! Atasi LUKA dengan SIAGA;https://i.pinimg.com/736x/3f/61/a2/3f61a28bbd8a932bd5d2bd34883aae82.jpg;JDFest FKG UNEJ
+3;2025:01:31;Website Kesehatan Mental;https://i.pinimg.com/474x/cd/a6/06/cda60638330328fba2bbf9c06361c071.jpg;MMHIRC UB
+4;2023:07:07;Video Animasi IpTT;https://i.pinimg.com/474x/3a/c5/33/3ac53368de7cda705e08fd85ad49ddc7.jpg;Jember
+5;2023:05:03;Video Animasi MITSU - Edukasi Kebencanaan;https://i.pinimg.com/474x/87/14/34/871434d69050e1ca413188fa725a4150.jpg;Jember
+6;2022:09:16;Video Animasi TIMO - Penerapan PHBS di Sekolah;https://i.pinimg.com/474x/0b/2a/e0/0b2ae0510d82df9a45dd48bafaee4814.jpg;Jember
+7;2024:10:02;Poster Integrating Geomythology for Geoconservation in the Ijen UNESCO GLOBALPARK;https://i.pinimg.com/474x/a9/d2/95/a9d295717b23d4eda275d6ef8ce47a4e.jpg;Taiwan
+8;2024:10:02;GeoLore! Peta Edukasi Integrasi Mitologi dan Geologi;https://i.pinimg.com/736x/f4/83/7e/f4837efcfb4e220ec18389f6c1529a5f.jpg;Taiwan
+9;2024:10:03;Juara 2 Poster Presentation di Taiwan;https://unej.ac.id/wp-content/uploads/2024/10/covwer.webp;Taiwan
+10;2024:07:24;Pelatihan Kader Lansia;https://i.pinimg.com/736x/1d/8a/95/1d8a95f4fe2f4655bf1739a4a385f5a4.jpg;Bondowoso
+11;2024:08:15;Pelatihan Kerajinan pada Lansia;https://i.pinimg.com/736x/22/7b/fe/227bfef98ce502fe124071760f9dad68.jpg;Bondowoso
+12;2024:09:24;Nursing Impact Across Borders (NIAB) with Niigata Health and Wellfare University, Japan;Jember
+13;2024:09:14;Pelatihan dan Edukasi Klien dengan Kusta;https://i.pinimg.com/736x/5c/c7/80/5cc7807b27a1fc4879cc3029561e16b7.jpg;Jember
+14;2024;Asisten Lab Keluarga, Komunitas, dan Gerontik FKep UNEJ,https://i.pinimg.com/736x/ee/a1/18/eea118b634462a7db16b1b0d3b083ead.jpg,Jember
