@@ -5,10 +5,10 @@
 5;2023:05:03;Video Animasi MITSU - Edukasi Kebencanaan;https://i.pinimg.com/474x/87/14/34/871434d69050e1ca413188fa725a4150.jpg;Jember
 6;2022:09:16;Video Animasi TIMO - Penerapan PHBS di Sekolah;https://i.pinimg.com/474x/0b/2a/e0/0b2ae0510d82df9a45dd48bafaee4814.jpg;Jember
 7;2024:10:02;Poster Integrating Geomythology for Geoconservation in the Ijen UNESCO GLOBALPARK;https://i.pinimg.com/474x/a9/d2/95/a9d295717b23d4eda275d6ef8ce47a4e.jpg;Taiwan
-8;2024:10:02;GeoLore! Peta Edukasi Integrasi Mitologi dan Geologi;https://i.pinimg.com/736x/f4/83/7e/f4837efcfb4e220ec18389f6c1529a5f.jpg;Taiwan
+8;2024:10:02;GeoLore! Peta Edukasi Integrasi Mitologi dan Geologi;https://i.pinimg.com/736x/4d/37/f5/4d37f58fac109f19d3c33b7ae940d1e2.jpg;Taiwan
 9;2024:10:03;Juara 2 Poster Presentation di Taiwan;https://unej.ac.id/wp-content/uploads/2024/10/covwer.webp;Taiwan
 10;2024:07:24;Pelatihan Kader Lansia;https://i.pinimg.com/736x/1d/8a/95/1d8a95f4fe2f4655bf1739a4a385f5a4.jpg;Bondowoso
 11;2024:08:15;Pelatihan Kerajinan pada Lansia;https://i.pinimg.com/736x/22/7b/fe/227bfef98ce502fe124071760f9dad68.jpg;Bondowoso
 12;2024:09:24;Nursing Impact Across Borders (NIAB) with Niigata Health and Wellfare University, Japan;https://i.pinimg.com/736x/1c/40/5f/1c405f7035c7ff8021390a9b01d44f42.jpg;Jember
 13;2024:09:14;Pelatihan dan Edukasi Klien dengan Kusta;https://i.pinimg.com/736x/5c/c7/80/5cc7807b27a1fc4879cc3029561e16b7.jpg;Jember
-14;2024;Asisten Lab Keluarga, Komunitas, dan Gerontik FKep UNEJ,https://i.pinimg.com/736x/ee/a1/18/eea118b634462a7db16b1b0d3b083ead.jpg,Jember
+14;2024:05:01;Asisten Lab Keluarga, Komunitas, dan Gerontik FKep UNEJ,https://i.pinimg.com/736x/ee/a1/18/eea118b634462a7db16b1b0d3b083ead.jpg,Jember
