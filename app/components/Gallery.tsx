@@ -30,7 +30,7 @@ async function getLatestPhotos(): Promise<Photo[]> {
         const dateB = new Date(b.date.replace(/:/g, "-"))
         return dateB.getTime() - dateA.getTime()
       })
-      .slice(0, 4)
+      .slice(0, 8)
 
     return photos
   } catch (error) {
